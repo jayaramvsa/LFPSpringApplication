@@ -7,11 +7,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @Data
-public class Greeting {
+public class GreetingResponse {
     private String format;
     private long counter;
 
-    public Greeting(long l, String format) {
+    public GreetingResponse(long l, String format) {
         this.format = format;
         this.counter = l;
     }
